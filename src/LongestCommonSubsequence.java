@@ -26,7 +26,7 @@ public class LongestCommonSubsequence {
 							lookUpArray[row][col] = 1;
 							
 						else {
-							lookUpArray[row][col] = lookUpArray[row][col-1];
+							lookUpArray[row][col] = lookUpArray[row][col-1] ;
 						}
 					}
 					else if (row==0 && col==0) {
